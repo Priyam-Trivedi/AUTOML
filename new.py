@@ -734,7 +734,7 @@ def app():
             print(test_score)
             clf_pred = clf.predict(X_test)
             space()
-            logging.info('Accuray Score SVC model : ')
+            logging.info('Accuray Score SVM model : ')
         except Exception as e:
             logging.warning('ERROR in Accuray Score SVC model : ')
             print(" ERROR in Accuray Score SVC model : ", e)
@@ -753,10 +753,10 @@ def app():
 
         try:
             st.markdown("<strong><h3 style='color: #424874'> Different estimators to evaluate SVM model</h3></strong>",unsafe_allow_html=True)
-            st.write("Accuracy of Logistic regresion", accuracy_score(Y_test, clf_pred))
-            st.write("f1 score of this logistic regression", f1_score(Y_test, clf_pred))
-            st.write("recall score of logistic regression", recall_score(Y_test, clf_pred))
-            st.write("precision score of logistic regression", precision_score(Y_test, clf_pred))
+            st.write("Accuracy of SVM", accuracy_score(Y_test, clf_pred))
+            st.write("f1 score of this SVM", f1_score(Y_test, clf_pred))
+            st.write("recall score of SVM", recall_score(Y_test, clf_pred))
+            st.write("precision score of SVM", precision_score(Y_test, clf_pred))
 
             print("Accuracy of svc", accuracy_score(Y_test, clf_pred))
             print("f1 score of this svc", f1_score(Y_test, clf_pred))
