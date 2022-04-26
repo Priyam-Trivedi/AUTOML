@@ -31,28 +31,21 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 
 ## Directory Tree 
 ```
-├── static 
-│   ├── css
-├── template
-│   ├── ipl_forntend.html
-│   ├── IPL_result.html
 ├── Procfile
 ├── README.md
-├── main.py
-├── IPL model.ipynb
-├── first-innings-score-lr-model.pkl
+├── new.py
 ├── requirements.txt
+├── setup.sh
 ```
 
 ## Technologies Used
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
-
-[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
+ [<img target="_blank" src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" width=280>](https://docs.streamlit.io/library/api-reference/media/st.image) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
 
 
 ## Bug / Feature Request
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/Priyam-Trivedi/IPL_score_prediction/issues) here by including your search query and the expected result
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/Priyam-Trivedi/AUTOML/issues) here by including your search query and the expected result
 
 
