@@ -13,6 +13,8 @@
 ## Demo
 Link: [https://automlnew.herokuapp.com/](https://automlnew.herokuapp.com/)
 
+Linkedin [https://www.linkedin.com/feed/update/urn:li:activity:6925053436430274560/](https://www.linkedin.com/feed/update/urn:li:activity:6925053436430274560/)
+
 ## Overview
 This project is Automated machine learning,which is also referred to as automated ML or AutoML, is the process of automating the time-consuming, iterative tasks of machine learning model development. It allows data scientists, analysts, and developers to build ML models with high scale, efficiency, and productivity all while sustaining model quality.
 
